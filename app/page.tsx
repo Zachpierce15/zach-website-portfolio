@@ -1,17 +1,17 @@
 import { ArrowDownRight } from "lucide-react";
 
-// import { ExperienceSection } from "@/components/sections/Experience";
+import { Experience } from "./components/sections/Experience";
 // import { FeaturedWork } from "@/components/sections/FeaturedWork";
-import { Hero } from "../app/components/Hero";
+import { Intro } from "./components/sections/Intro";
 // import { Skills } from "@/components/sections/Skills";
 // import { YouTubeWork } from "@/components/sections/YouTubeWork";
 
-export default function HomePage() {
+export default function About() {
   return (
     <main className="bg-zinc-950 text-zinc-100">
-      <Hero />
+      <Intro />
+      <Experience />
       {/* <FeaturedWork />
-      <ExperienceSection />
       <Skills />
       <YouTubeWork /> */}
       HELLO
