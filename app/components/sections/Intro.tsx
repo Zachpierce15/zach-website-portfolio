@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import { motion, useReducedMotion } from "motion/react";
@@ -31,7 +32,7 @@ const Intro = () => {
               <span className="block text-green-200">Pierce</span>
             </h1>
 
-            <div className="relative size-36 shrink-0 overflow-hidden rounded-3xl  border-2 border-green-200/30 bg-zinc-900">
+            <div className="relative size-46 shrink-0 overflow-hidden rounded-3xl  border-2 border-green-200/30 bg-zinc-900">
               <Image
                 src="/images/profile/profile.jpeg"
                 alt="Zachary Pierce"
@@ -50,7 +51,7 @@ const Intro = () => {
             Engineer specializing in polished, reliable interfaces, reusable
             systems, and thoughtful user workflows.
           </p>
-          <div className="mt-10 flex max-w-2xl flex-wrap gap-2">
+          <div className="mt-10 flex flex-wrap gap-2">
             <a
               href="mailto:zachary.15pierce@gmail.com"
               className="inline-flex items-center justify-center rounded-lg bg-green-200 px-6 py-3 font-semibold text-zinc-950 transition-colors hover:bg-green-300"
@@ -76,12 +77,12 @@ const Intro = () => {
               <ArrowUpRight className="ml-1 size-4 transition-transform duration-200 ease-out group-hover:translate-x-1 group-hover:-translate-y-1" />
             </a>
 
-            <a
-              href="#experience"
-              className="inline-flex items-center justify-center rounded-lg border-2 border-green-200/30 bg-zinc-900 px-6 py-3 font-semibold text-green-200/30 transition-colors hover:text-green-300 hover:border-green-300"
+            <Link
+              href="/resume"
+              className="group inline-flex items-center justify-center rounded-lg border-2 border-green-200/30 bg-zinc-900 px-6 py-3 font-semibold tracking-tight text-green-200/30 transition-colors hover:border-green-300 hover:text-green-300"
             >
               Résumé
-            </a>
+            </Link>
           </div>
         </motion.div>
       </div>

@@ -28,3 +28,20 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@media print {
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+
+  html,
+  body {
+    background: white !important;
+    color: #18181b !important;
+  }
+
+  .site-chrome {
+    display: none !important;
+  }
+}

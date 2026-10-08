@@ -1,0 +1,70 @@
+.name {
+  font-size: clamp(2.75rem, 8vw, 5rem);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.section {
+  margin-top: 2.5rem;
+  border-top: 1px solid rgb(255 255 255 / 15%);
+  padding-top: 1.5rem;
+}
+
+.sectionHeading {
+  color: #ccddc7;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.accent {
+  color: #ccddc7;
+  font-weight: 600;
+}
+
+@media print {
+  .page {
+    min-height: auto;
+    padding: 0;
+    background: white !important;
+    color: #18181b !important;
+    font-size: 10pt;
+  }
+
+  .page * {
+    color: #18181b !important;
+  }
+
+  .screenOnly {
+    display: none !important;
+  }
+
+  .name {
+    font-size: 30pt;
+  }
+
+  .section {
+    margin-top: 16pt;
+    padding-top: 10pt;
+    border-color: #d4d4d8;
+  }
+
+  .sectionHeading {
+    font-size: 10pt;
+  }
+
+  .page h2,
+  .page h3 {
+    break-after: avoid;
+  }
+
+  .bullet {
+    break-inside: avoid;
+  }
+
+  .contactLink {
+    text-decoration: none;
+  }
+}
