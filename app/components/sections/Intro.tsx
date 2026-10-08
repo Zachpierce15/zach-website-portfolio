@@ -33,7 +33,7 @@ const Intro = () => {
 
             <div className="relative size-36 shrink-0 overflow-hidden rounded-3xl  border-2 border-green-200/30 bg-zinc-900">
               <Image
-                src="/images/profile/profile.jpg"
+                src="/images/profile/profile.jpeg"
                 alt="Zachary Pierce"
                 fill
                 sizes="(min-width: 1024px) 256px, (min-width: 768px) 224px, (min-width: 640px) 192px, 160px"
