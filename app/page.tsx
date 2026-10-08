@@ -1,8 +1,8 @@
 import { ArrowDownRight } from "lucide-react";
 
-import { Experience } from "./components/sections/Experience";
+import Experience from "./components/sections/Experiences/Experience";
 // import { FeaturedWork } from "@/components/sections/FeaturedWork";
-import { Intro } from "./components/sections/Intro";
+import Intro from "./components/sections/Intro";
 // import { Skills } from "@/components/sections/Skills";
 // import { YouTubeWork } from "@/components/sections/YouTubeWork";
 
@@ -17,7 +17,7 @@ export default function About() {
       HELLO
       <section className="px-6 py-24 md:px-12">
         <a
-          href="mailto:your-professional-email@example.com"
+          href="mailto:zachary.15pierce@gmail.com"
           className="group inline-flex items-center gap-3 text-3xl font-semibold tracking-tight md:text-5xl"
         >
           Let’s work together
