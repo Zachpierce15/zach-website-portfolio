@@ -2,7 +2,7 @@ import { ArrowDownRight } from "lucide-react";
 
 import Experience from "./components/sections/Experiences/Experience";
 // import { FeaturedWork } from "@/components/sections/FeaturedWork";
-import Intro from "./components/sections/Intro";
+import Intro from "./components/sections/Intro/Intro";
 // import { Skills } from "@/components/sections/Skills";
 // import { YouTubeWork } from "@/components/sections/YouTubeWork";
 
